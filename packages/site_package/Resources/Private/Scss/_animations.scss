@@ -1,0 +1,71 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes hamburger-animation-top {
+  0% {
+    top: -0.675rem;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 0rem;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 0rem;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes hamburger-animation-middle {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes hamburger-animation-bottom {
+  0% {
+    top: 0.675rem;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 0rem;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 0rem;
+    transform: rotate(45deg);
+  }
+}

@@ -1,0 +1,33 @@
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  margin-bottom: 1.5rem;
+}
+
+.frame-inner {
+  header {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-shadow: 0 2px 3px #000000, 0 0 7px #71dbd9, 0 0 10px #71dbd9,
+        0 0 21px #71dbd9, 0 0 42px #8759b5, 0 0 82px #8759b5, 0 0 92px #8759b5,
+        0 0 102px #8759b5, 0 0 151px #8759b5;
+      font-weight: 900;
+      span {
+        text-shadow: none;
+      }
+    }
+  }
+}

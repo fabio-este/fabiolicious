@@ -1,0 +1,67 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:site_package/Resources/Public/Images/logo.png
+        fileInverted =  EXT:site_package/Resources/Public/Images/logo.png
+        height = 
+        width = 500
+        alt = FABIO LIICOUS LOGO
+        linktitle = FABIO LIICOUS LOGO
+    }
+    favicon {
+        file = EXT:site_package/Resources/Public/Icons/favicon.png
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:site_package/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:site_package/Resources/Private/Partials/Page/
+        templateRootPath = EXT:site_package/Resources/Private/Templates/Page/
+    }
+}
+
+page.theme.socialmedia.channels.whatsapp {
+    # cat=bootstrap package: social media/165/10_whatsapp_label; type=string; label=WhatsApp Label: Insert label
+    label = WhatsApp
+    # cat=bootstrap package: social media/165/10_whatsapp_label; type=string; label=WhatsApp URL: Insert label
+    url =
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:site_package/Resources/Private/Layouts/
+        partialRootPath = EXT:site_package/Resources/Private/Partials/
+        templateRootPath = EXT:site_package/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:site_package/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:site_package/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:site_package/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #8759b5
+    secondary = #71dbd9
+}

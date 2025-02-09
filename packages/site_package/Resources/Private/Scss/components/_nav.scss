@@ -1,0 +1,32 @@
+//
+// Navs
+//
+.nav-link {
+  &:focus-visible {
+    outline: 2px solid;
+    box-shadow: none;
+  }
+}
+
+span.nav-link-text {
+  text-shadow: 0 2px 3px #000000, 0 0 7px #71dbd9, 0 0 10px #71dbd9,
+    0 0 21px #71dbd9, 0 0 42px #8759b5, 0 0 82px #8759b5, 0 0 92px #8759b5,
+    0 0 102px #8759b5, 0 0 151px #8759b5;
+  font-weight: bold;
+}
+
+header#page-header {
+  margin: 0 0.75rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  /* border: 1px solid #71dbd8; */
+  border-top: none;
+}
+
+.navbar-mainnavigation.navbar.navbar-top {
+  box-shadow: 0 0 0px 1px #71dbd8, 0 0 5px 1px #71dbd8, 0 0 7px 2px #8759b5,
+    0 0 12px 9px #4e3369;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  /* filter: blur(1.5rem); */
+  backdrop-filter: blur(1rem);
+}

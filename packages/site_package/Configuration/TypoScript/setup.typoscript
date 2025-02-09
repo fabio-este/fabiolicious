@@ -1,0 +1,43 @@
+######################
+#### DEPENDENCIES ####
+######################
+ @import 'EXT:site_package/Configuration/TypoScript/Setup/typo3encore.typoscript'
+
+
+##############
+#### PAGE ####
+##############
+page {
+
+    includeCSS {
+        # Pattern typo3_encore:entryName
+        theme = typo3_encore:Theme
+        # If you want to ensure that this file is loaded first uncomment the next line
+        # app.forceOnTop = 1
+    }
+
+
+
+    includeJSLibs {
+      # Pattern typo3_encore:entryName
+      fa = typo3_encore:FontAwesome
+      main = typo3_encore:Main
+      # If you want to ensure that this file is loaded first uncomment the next line
+      # app.forceOnTop = 1
+    }
+
+    includeJSFooterlibs {
+    }
+
+    fluidtemplate {
+        layoutRootPath = EXT:site_package/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:site_package/Resources/Private/Partials/Page/
+        templateRootPath = EXT:site_package/Resources/Private/Templates/Page/
+    }
+}
+
+page.theme.socialmedia.channels.whatsapp.label =  {$page.theme.socialmedia.channels.whatsapp.label}
+page.theme.socialmedia.channels.whatsapp.url = {$page.theme.socialmedia.channels.whatsapp.url}
+
+
+

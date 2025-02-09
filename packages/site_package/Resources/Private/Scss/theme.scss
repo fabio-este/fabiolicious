@@ -1,0 +1,85 @@
+
+
+/*
+ * Variables
+ */
+@import "variables";
+
+:root {
+  --bs-body-color: #eee;
+  --bs-body-bg: #000;
+  --cardgroup-gap: 1.5rem;
+  --bs-body-font-size: 1.125rem;
+
+    --cookieconsent-zindex: 1080;
+    --cookieconsent-bg: #000;
+    --cookieconsent-color: #eee;
+    --cookieconsent-link-color: #8759b5;
+    --cookieconsent-button-bg: #000;
+    --cookieconsent-button-highlight-bg: transparent;
+}
+
+
+/*
+ * Import needed Bootstrap Package Files
+ */
+@import "../../../../../vendor/bk2k/bootstrap-package/Resources/Public/Scss/bootstrap5/theme.scss";
+
+/*
+ * Mixins
+ */
+@import "mixins";
+
+/*
+ * Animations
+ */
+@import "animations";
+
+/*
+ * General
+ */
+@import "general";
+
+/*
+ * Icons
+ */
+@import "icons";
+
+/**
+  * Overwrite Components
+  */
+@import "components/timeline";
+@import "components/sociallink";
+@import "components/headers";
+@import "components/frame";
+@import "components/navbar";
+@import "components/nav";
+@import "components/card";
+@import "components/button";
+//
+// Plugins
+//
+//@import "./plugins/cookieconsent";
+//@import "./plugins/photoswipe";
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-sm,
+.navbar > .container-md,
+.navbar > .container-lg,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  justify-content: center;
+}
+b,
+strong {
+  font-weight: 700;
+}
+header {
+  text-align: center;
+}
+footer#page-footer {
+  header {
+    text-align: left;
+  }
+}

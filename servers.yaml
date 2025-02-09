@@ -1,0 +1,21 @@
+hosts:
+
+  .server_hostinger: &base_hostinger
+    user: u665947206
+    remote_user: u665947206
+    http_user: u665947206
+    port: 65002
+    pty: true
+    forward_agent: true
+    #  multiplexing: true
+    bin:
+      php: /usr/local/bin/php_cli
+      composer: /usr/local/bin/composer
+
+  fabio-licio.us:
+    <<: *base_hostinger
+    remote_user: ssh-uwhk61@a-fgy51f
+    branch: master
+    forward_agent: true
+    deploy_path: "~/html/rainbow-revolution-e4j6j"
+    hostname: 46.202.158.39

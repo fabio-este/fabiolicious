@@ -1,0 +1,46 @@
+TCEFORM {
+    pages {
+        layout {
+            addItems {
+          #      header-transparent = Transparenter Header
+            }
+            
+        }
+    }
+    tt_content {
+        frame_layout{
+            types{
+                card_group{
+                    addItems {
+                        text-on-image = Text auf Bild
+                    }
+                }
+    
+            }
+        }
+        frame_class{
+            types{
+                image{
+                    addItems {
+                        neon = neon
+                        neon-round = neon round
+                    }
+                }
+                container_1_columns{
+                    addItems {
+                        fullscreen = Fullscreen
+                    }
+                }
+            }
+        }
+        background_color_class{
+            addItems {          
+                  
+            }
+        }     
+        pi_flexform{
+            
+        }
+        
+    }
+}

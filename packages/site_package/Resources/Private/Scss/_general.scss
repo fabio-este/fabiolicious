@@ -1,0 +1,31 @@
+.scroll-top.scroll-top-visible{
+    display: none;
+}
+
+.footer-section-meta {
+    background: #000;
+    --frame-color: #ffffff;
+    --frame-background: #000;
+    --frame-link-color: rgb(158.91223791, 122.0785957755, 195.7458800445);
+    --frame-link-hover-color: rgb(158.91223791, 122.0785957755, 195.7458800445);
+}
+
+.footer-meta .meta-menu {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    li{
+        a{
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+    }
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+    text-align: center;
+}
