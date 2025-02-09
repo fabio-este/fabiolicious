@@ -1,3 +1,4 @@
+
 .DS_Store
 .idea
 nbproject
@@ -6,4 +7,12 @@ nbproject
 /vendor
 /public/*
 !/public/.htaccess
+!/public/typo3conf
+/public/typo3conf/*
+!/public/typo3conf/LocalConfiguration.php
+!/public/typo3conf/AdditionalConfiguration.php
+/var/*
+/packages/site-package/node_modules
+/packages/site-package/node_modules/*
+/config/*
 node_modules
