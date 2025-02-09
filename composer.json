@@ -16,7 +16,7 @@
   "require": {
     "b13/container": "^3.1",
     "bk2k/bootstrap-package": "^15.0",
-    "fabio-licious/site-package": "dev-main",
+    "fabio-licious/site-package": "dev-master",
     "quellenform/t3x-iconpack-fontawesome": "^1.0",
     "ssch/typo3-encore": "^6.0",
     "typo3/cms-backend": "^13.4",
@@ -40,6 +40,12 @@
     "typo3/cms-setup": "^13.4",
     "typo3/cms-tstemplate": "^13.4",
     "typo3/cms-viewpage": "^13.4"
+  },
+  "require-dev": {
+    "deployer/deployer": "^7.1",
+    "roave/security-advisories": "dev-latest",
+    "symfony/var-dumper": "^5.4",
+    "typo3/cms-lowlevel": "^13"
   },
   "repositories": [
     {
