@@ -16,3 +16,10 @@ nbproject
 /packages/site-package/node_modules/*
 /config/*
 node_modules
+
+/.env
+/private/*
+/public/*
+!/public/.gitkeep
+/vendor
+/.ddev/*

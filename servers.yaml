@@ -1,17 +1,16 @@
 hosts:
   fabio-licio.us:
-    hostname: 46.202.158.39
-    port: 65002
-    user: u665947206
-    remote_user: u665947206
-    http_user: u665947206
+    hostname: 46.202.154.149
+    user: user
+    remote_user: user
+    http_user: user
     pty: true
     forward_agent: true
     branch: master
-    deploy_path: /home/u665947206/public_html/fabio-licio.us
+    deploy_path: /home/user/htdocs/srv720624.hstgr.cloud
     bin:
       php: /usr/bin/php
-      composer: /usr/local/bin/composer2
+      composer: /usr/local/bin/composer
 
 
 

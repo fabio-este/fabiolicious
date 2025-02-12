@@ -7342,16 +7342,16 @@
     "packages-dev": [
         {
             "name": "deployer/deployer",
-            "version": "v7.5.8",
+            "version": "v7.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "4900fe799ce5566d54a14103cdfd6e865b7c5d72"
+                "reference": "10901e6a42eae0e341f81de2aa515c7adb8706d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/4900fe799ce5566d54a14103cdfd6e865b7c5d72",
-                "reference": "4900fe799ce5566d54a14103cdfd6e865b7c5d72",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/10901e6a42eae0e341f81de2aa515c7adb8706d1",
+                "reference": "10901e6a42eae0e341f81de2aa515c7adb8706d1",
                 "shasum": ""
             },
             "require": {
@@ -7392,7 +7392,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-27T21:35:20+00:00"
+            "time": "2025-02-10T13:10:51+00:00"
         },
         {
             "name": "roave/security-advisories",
